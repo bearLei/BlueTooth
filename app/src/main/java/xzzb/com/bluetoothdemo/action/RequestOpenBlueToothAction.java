@@ -22,6 +22,7 @@ public class RequestOpenBlueToothAction extends BaseAction {
         if (blueAdapter != null
                 && blueAdapter.isEnabled()){
             //蓝牙已经是开启状态 直接返回ture
+            isOpened = true;
             return isOpened;
         }
         if (blueAdapter != null && blueAdapter.enable()){

@@ -6,7 +6,8 @@ import android.content.Intent;
 
 /**
  * create by lei on 2018/11/6/006
- * desc:
+ * desc:用来广播配对请求
+ * 对应广播通知：ACTION_PAIRING_REQUEST
  */
 public class PairingCancelListener implements BaseBlueEventHandler {
 

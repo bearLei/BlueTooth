@@ -6,7 +6,8 @@ import android.content.Intent;
 
 /**
  * create by lei on 2018/11/6/006
- * desc:
+ * desc:这个广播只有在远程设备的uuid需要请求服务协议获取设备接收时才接收
+ * 对应的广播通知：ACTION_UUID
  */
 public class ServiceUUidFoundListener implements BaseBlueEventHandler {
 

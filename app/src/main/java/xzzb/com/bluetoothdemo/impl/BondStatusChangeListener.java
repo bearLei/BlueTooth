@@ -7,6 +7,8 @@ import android.content.Intent;
 /**
  * create by lei on 2018/11/6/006
  * desc:蓝牙连接状态改变监听
+ * 对应广播通知：ACTION_BOND_STATE_CHANGED
+ *BluetoothDevice.EXTRA_BOND_STATE 来获取状态
  */
 public class BondStatusChangeListener implements BaseBlueEventHandler {
 
